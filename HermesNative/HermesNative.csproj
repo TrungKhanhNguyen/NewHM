@@ -115,6 +115,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact.html" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -188,10 +189,25 @@
     <Content Include="images\banner.png" />
     <Content Include="images\blog-image1.png" />
     <Content Include="images\blog-image2.png" />
+    <Content Include="images\call.jpg" />
+    <Content Include="images\cirrus.png" />
     <Content Include="images\collection-image1.png" />
     <Content Include="images\collection-image2.png" />
+    <Content Include="images\customer-image.png" />
     <Content Include="images\daily-deal-bg.png" />
+    <Content Include="images\discover.png" />
     <Content Include="images\dropdown.jpg" />
+    <Content Include="images\ebay.png" />
+    <Content Include="images\footer-bg.png" />
+    <Content Include="images\gridproduct-banner.jpg" />
+    <Content Include="images\location.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mail.jpg" />
+    <Content Include="images\map.jpg" />
+    <Content Include="images\minus.jpg" />
+    <Content Include="images\paypal.png" />
+    <Content Include="images\plus.jpg" />
+    <Content Include="images\visa.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.2.1.min.js" />

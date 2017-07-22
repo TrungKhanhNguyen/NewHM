@@ -153,9 +153,10 @@ body {
     padding-right: 0; }
     .menu .main-menu .logo-col .logo {
       display: block;
-      padding-top: 34px;
-      width: 131px;
-      height: 27px; }
+      padding-top: 34px; }
+      .menu .main-menu .logo-col .logo img {
+        width: 131px;
+        height: 27px; }
   .menu .main-menu ul {
     padding: 0;
     margin: 0;
@@ -1401,4 +1402,65 @@ body {
         .productpage-content .myaccount .left-corner ul li a:hover {
           padding-left: 10px;
           color: #ba933e; }
+  .productpage-content .contact-us .line-bottom {
+    text-transform: none;
+    color: #222;
+    font-size: 21px;
+    padding-top: 73px;
+    word-spacing: 3px;
+    margin-bottom: 25px; }
+  .productpage-content .contact-us .contact-detail {
+    padding-top: 56px; }
+    .productpage-content .contact-us .contact-detail .item-header {
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+      padding-top: 80px;
+      margin-bottom: 19px; }
+    .productpage-content .contact-us .contact-detail .address {
+      background-image: url("../images/location.jpg");
+      background-repeat: no-repeat;
+      background-position: top center; }
+    .productpage-content .contact-us .contact-detail .phone {
+      background-image: url("../images/call.jpg");
+      background-repeat: no-repeat;
+      background-position: top center; }
+    .productpage-content .contact-us .contact-detail .mail {
+      background-image: url("../images/mail.jpg");
+      background-repeat: no-repeat;
+      background-position: top center; }
+    .productpage-content .contact-us .contact-detail span {
+      color: #888;
+      display: block;
+      font-size: 13px;
+      text-align: center; }
+  .productpage-content .contact-us .maps {
+    background-color: #f4f4f4;
+    margin-top: 44px; }
+    .productpage-content .contact-us .maps img {
+      width: 100%;
+      height: 607px; }
+  .productpage-content .contact-us .right-corner .column-header {
+    font-size: 15px;
+    color: #333; }
+  .productpage-content .contact-us .right-corner .input-item {
+    height: 50px;
+    width: 100%;
+    margin-top: 6px;
+    padding-left: 16px;
+    margin-bottom: 26px; }
+  .productpage-content .contact-us .right-corner .general-button {
+    background-color: #ba933e;
+    text-transform: uppercase;
+    height: 50px;
+    width: 220px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 46px;
+    margin-bottom: 81px; }
+  .productpage-content .contact-us .right-corner textarea {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 19px; }
 
