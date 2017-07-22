@@ -1327,6 +1327,26 @@ body {
 .productpage-content {
     padding-top: 155px;
 
+    .line-bottom {
+            font-size: 18px;
+            color: rgb(17, 17, 17);
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 1.111;
+            position: relative;
+            padding-bottom: 26px;
+            padding-top : 23px;
+        }
+
+        .line-bottom:before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            border-bottom: 3px solid #ba933e;
+        }
     .breadcrumbs {
         font-size: 13px;
         color: rgb(153, 153, 153);
@@ -1858,27 +1878,6 @@ body {
     }
 
     .shopping-cart {
-        .line-bottom {
-            font-size: 18px;
-            color: rgb(17, 17, 17);
-            font-weight: 500;
-            text-transform: uppercase;
-            line-height: 1.111;
-            position: relative;
-            padding-bottom: 26px;
-            padding-top : 23px;
-        }
-
-        .line-bottom:before {
-            content: "";
-            position: absolute;
-            width: 30px;
-            height: 3px;
-            bottom: 0;
-            left: 0;
-            border-bottom: 3px solid #ba933e;
-        }
-
         table {
             font-size: 13px;
             margin-top : 35px;
@@ -1973,6 +1972,47 @@ body {
                 li:not(:first-child){
                     margin-top : 28px;
                 }
+            }
+        }
+    }
+    .myaccount{
+        .line-bottom{
+            color : #333;
+            font-weight : 300;
+        }
+        p.column-header{
+            font-size : 15px;
+            color : #333;
+        }
+        .input-item{
+            height : 50px;
+            width : 100%;
+            border : 1px solid #ddd;
+            font-size : 13px;
+            padding-left : 20px;
+        }
+        .country{
+            background-image : url('../images/dropdown.jpg'); 
+            background-repeat : no-repeat;
+            background-position : center right;
+        }
+        .left-corner{
+            ul{
+                padding : 0; margin : 0;
+                list-style-type : none;
+                li{
+                    font-size : 15px;
+                    color : #333;
+                    a{
+                        color : inherit;
+                        text-decoration : none;
+                    }
+                    a:hover{
+                        padding-left : 10px;
+                        color : #ba933e;
+                    }
+                }
+               
             }
         }
     }
