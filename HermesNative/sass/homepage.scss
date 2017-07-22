@@ -1326,6 +1326,10 @@ body {
 
 .productpage-content {
     padding-top: 155px;
+    ul{
+        padding : 0; margin : 0;
+        list-style-type : none;
+    }   
 
     .line-bottom {
             font-size: 18px;
@@ -1976,13 +1980,19 @@ body {
         }
     }
     .myaccount{
+        padding-top : 31px;
         .line-bottom{
             color : #333;
             font-weight : 300;
+            padding-bottom : 24px;
         }
         p.column-header{
             font-size : 15px;
             color : #333;
+            line-height: 1.333;
+        }
+        .p.empty-column{
+            height : 21px;
         }
         .input-item{
             height : 50px;
@@ -1990,19 +2000,66 @@ body {
             border : 1px solid #ddd;
             font-size : 13px;
             padding-left : 20px;
+            margin-top : 7px;
         }
-        .country{
-            background-image : url('../images/dropdown.jpg'); 
+        
+        .ui-button .ui-icon{
+            background-image : url('../images/dropdown.jpg');
+            background-size : 8px 5px;
             background-repeat : no-repeat;
-            background-position : center right;
+            background-position : center center;
+        }
+        .ui-button:active{
+            background : unset;
+            color : #454545;
+        }
+        .right-corner{
+            .controlgroup{
+                margin-top : 7px;
+            }
+            .general-button{
+                background-color : #ba933e;
+                width : 220px;
+                height :50px;
+                text-transform : uppercase;
+                padding-top : 15px;
+                text-align : center;
+                font-size : 13px;
+                float : right;
+                margin-top : 50px;
+                margin-bottom : 95px;
+            }
+            .row{
+                padding-top : 17px;
+                padding-bottom : 10px;
+            }
+            .country, .state{
+                width : 100%;
+                .ui-selectmenu-button.ui-button{
+                    width : 100%;
+                    height : 50px;
+                    padding-top : 15px;
+                }
+            }
+            .date, .month, .year{
+                width : 30%;
+                .ui-selectmenu-button.ui-button{
+                    width : 100%;
+                    height : 50px;
+                    padding-top : 15px;
+                }
+            }
+            .date, .month{
+                margin-right : 15px;
+            }
         }
         .left-corner{
             ul{
-                padding : 0; margin : 0;
-                list-style-type : none;
+                padding-top : 28px;
                 li{
                     font-size : 15px;
                     color : #333;
+                    margin-bottom : 51px;
                     a{
                         color : inherit;
                         text-decoration : none;

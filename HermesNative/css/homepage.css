@@ -887,6 +887,10 @@ body {
 
 .productpage-content {
   padding-top: 155px; }
+  .productpage-content ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; }
   .productpage-content .line-bottom {
     font-size: 18px;
     color: #111111;
@@ -1328,33 +1332,73 @@ body {
           float: right; }
       .productpage-content .shopping-cart .summarize ul li:not(:first-child) {
         margin-top: 28px; }
-  .productpage-content .myaccount .line-bottom {
-    color: #333;
-    font-weight: 300; }
-  .productpage-content .myaccount p.column-header {
-    font-size: 15px;
-    color: #333; }
-  .productpage-content .myaccount .input-item {
-    height: 50px;
-    width: 100%;
-    border: 1px solid #ddd;
-    font-size: 13px;
-    padding-left: 20px; }
-  .productpage-content .myaccount .country {
-    background-image: url("../images/dropdown.jpg");
-    background-repeat: no-repeat;
-    background-position: center right; }
-  .productpage-content .myaccount .left-corner ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none; }
-    .productpage-content .myaccount .left-corner ul li {
+  .productpage-content .myaccount {
+    padding-top: 31px; }
+    .productpage-content .myaccount .line-bottom {
+      color: #333;
+      font-weight: 300;
+      padding-bottom: 24px; }
+    .productpage-content .myaccount p.column-header {
       font-size: 15px;
-      color: #333; }
-      .productpage-content .myaccount .left-corner ul li a {
-        color: inherit;
-        text-decoration: none; }
-      .productpage-content .myaccount .left-corner ul li a:hover {
-        padding-left: 10px;
-        color: #ba933e; }
+      color: #333;
+      line-height: 1.333; }
+    .productpage-content .myaccount .p.empty-column {
+      height: 21px; }
+    .productpage-content .myaccount .input-item {
+      height: 50px;
+      width: 100%;
+      border: 1px solid #ddd;
+      font-size: 13px;
+      padding-left: 20px;
+      margin-top: 7px; }
+    .productpage-content .myaccount .ui-button .ui-icon {
+      background-image: url("../images/dropdown.jpg");
+      background-size: 8px 5px;
+      background-repeat: no-repeat;
+      background-position: center center; }
+    .productpage-content .myaccount .ui-button:active {
+      background: unset;
+      color: #454545; }
+    .productpage-content .myaccount .right-corner .controlgroup {
+      margin-top: 7px; }
+    .productpage-content .myaccount .right-corner .general-button {
+      background-color: #ba933e;
+      width: 220px;
+      height: 50px;
+      text-transform: uppercase;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      float: right;
+      margin-top: 50px;
+      margin-bottom: 95px; }
+    .productpage-content .myaccount .right-corner .row {
+      padding-top: 17px;
+      padding-bottom: 10px; }
+    .productpage-content .myaccount .right-corner .country, .productpage-content .myaccount .right-corner .state {
+      width: 100%; }
+      .productpage-content .myaccount .right-corner .country .ui-selectmenu-button.ui-button, .productpage-content .myaccount .right-corner .state .ui-selectmenu-button.ui-button {
+        width: 100%;
+        height: 50px;
+        padding-top: 15px; }
+    .productpage-content .myaccount .right-corner .date, .productpage-content .myaccount .right-corner .month, .productpage-content .myaccount .right-corner .year {
+      width: 30%; }
+      .productpage-content .myaccount .right-corner .date .ui-selectmenu-button.ui-button, .productpage-content .myaccount .right-corner .month .ui-selectmenu-button.ui-button, .productpage-content .myaccount .right-corner .year .ui-selectmenu-button.ui-button {
+        width: 100%;
+        height: 50px;
+        padding-top: 15px; }
+    .productpage-content .myaccount .right-corner .date, .productpage-content .myaccount .right-corner .month {
+      margin-right: 15px; }
+    .productpage-content .myaccount .left-corner ul {
+      padding-top: 28px; }
+      .productpage-content .myaccount .left-corner ul li {
+        font-size: 15px;
+        color: #333;
+        margin-bottom: 51px; }
+        .productpage-content .myaccount .left-corner ul li a {
+          color: inherit;
+          text-decoration: none; }
+        .productpage-content .myaccount .left-corner ul li a:hover {
+          padding-left: 10px;
+          color: #ba933e; }
 

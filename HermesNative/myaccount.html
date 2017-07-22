@@ -13,6 +13,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <script>
+  $( function() {
+      $(".controlgroup").controlgroup();
+  });
+    </script>
 </head>
 <body>
     <div class="main-page">
@@ -83,7 +88,7 @@
         <div class="productpage-content">
                 <div class="container">
                     <div class="breadcrumbs">
-                        <a href="#">Home</a> / <a href="#">Men</a>
+                        <a href="#">Home</a> / <a href="#">My Account</a>
                     </div>
                     <div class="myaccount">
                         <div class="row">
@@ -123,23 +128,34 @@
                                         <input class="input-item" placeholder="Enter your address" />
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="column-header"> </p>
+                                        <p class="column-header">&nbsp;</p>
                                         <input class="input-item" placeholder="Enter the apartment floor, suite, etc.." />
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="column-header">Country</p>
-                                        <select class="country">
-                                            <option>United States</option>
-                                            <option>United Kingdom</option>
-                                            <option>Vietnam</option>
-                                            <option>France</option>
-                                        </select>
+                                        <div class="controlgroup country">
+                                            <select class="">
+                                                <option>United States</option>
+                                                <option>United Kingdom</option>
+                                                <option>France</option>
+                                                <option>Germany</option>
+                                                <option>Switzerland</option>
+                                                <option>Netherland</option>
+                                                <option>Vietnam</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
                                         <p class="column-header">State</p>
-
+                                        <div class="controlgroup state">
+                                            <select>
+                                                <option>Hanoi</option>
+                                                <option>Sai Gon</option>
+                                                <option>Ninh Binh</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
                                         <p class="column-header">Zip Code</p>
@@ -148,15 +164,40 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <p class="column-header">Country</p>
-
-                                    </div>
+                                        <p class="column-header">Birth Date</p>
+                                        <div class="controlgroup date">
+                                            <select>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                            </select>
+                                        </div>
+                                        <div class="controlgroup month">
+                                            <select>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                            </select>
+                                        </div>
+                                        <div class="controlgroup year">
+                                            <select>
+                                                <option>2017</option>
+                                                <option>2018</option>
+                                                <option>2019</option>
+                                            </select>
+                                            </div>
+                                        </div>
                                     <div class="col-md-6">
                                         <p class="column-header">Secondary Phone</p>
                                         <input class="input-item" placeholder="Enter your phone number" />
                                     </div>
 
                                 </div>
+                                <a href="#" class="general-button">Save all changes</a>
                             </div>
                         </div>
                         
@@ -262,5 +303,6 @@
             loop: true
         });
     </script>
+    
 </body>
 </html>
